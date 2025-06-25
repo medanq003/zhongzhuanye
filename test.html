@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的链接聚合页</title>
+    <style>
+        /* --- 全局样式 --- */
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f0f2f5; /* 淡灰色背景 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #1c1e21;
+        }
+
+        /* --- 主内容容器 --- */
+        .container {
+            width: 90%;
+            max-width: 680px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* --- 名字和描述 --- */
+        h1 {
+            font-size: 28px; /* 名字可以稍微大一点 */
+            font-weight: 600;
+            margin-top: 10px; /* 顶部留白减少 */
+            margin-bottom: 8px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 35px; /* 描述和链接之间的距离加大 */
+            color: #606770; /* 描述文字颜色变浅一些 */
+        }
+
+        /* --- 链接按钮 --- */
+        .links-container a {
+            display: block;
+            background-color: #fff;
+            color: #1c1e21;
+            text-decoration: none;
+            padding: 16px 20px; /* 按钮加高一点 */
+            margin-bottom: 16px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 500;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .links-container a:hover {
+            transform: translateY(-3px); /* 鼠标悬浮时轻微上移 */
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+        }
+        
+        /* --- 页脚 --- */
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #8a8d91;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>你好</h1>
+
+        <p>这里是中转页，防止机器人及爬虫，你只需要点击下列链接，就能跳转到目标网站</p>
+
+        <div class="links-container">
+            <a href="https://fusiontrade.info/services/" target="_blank">点这里</a>
+            
+            </div>
+
+        <footer>
+            <p>构建于 fusiontrade 由AI安全审核 2025</p>
+        </footer>
+
+        </div>
+
+</body>
+</html>
